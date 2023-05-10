@@ -1,6 +1,5 @@
 # Deflecting Adversarial Attacks with Pixel Deflection
 
-![deflecting pixels](https://i.imgur.com/BhxmVwx.png)
 
 Code: https://github.com/tanmayiitj/DAI-Project
 
@@ -9,11 +8,7 @@ Google Colab: Provide google colab for easier understanding
 Requirements:
 
 1. Keras 2.0+
-(only used for classification - Pixel Deflection itself is deep learning platform independent) 
-
-2. Scipy 1.0+
-
-(Older version of scipy wavelet transform does not have BayesShrink)
+2. Scipy 1.0+  (Older version of scipy wavelet transform does not have BayesShrink)
 
 ## Example
 
@@ -54,8 +49,7 @@ After recovery Top 1 accuracy is 66.67 and Top 5 accuracy is 100.0
 ```
 
 
-In batch usage the map file is expected to have same name as image file but inside './maps' directory
-To generate map see this https://github.com/iamaaditya/image-compression-cnn/blob/master/generate_map.py
+In batch usage the map file is expected to have same name as image file but inside './maps' directory.
 
 ### Without map
 To use without a map, pass in '-disable_map' argument, e.g:
