@@ -2,9 +2,9 @@
 
 ![deflecting pixels](https://i.imgur.com/BhxmVwx.png)
 
-Code for paper: https://arxiv.org/abs/1801.08926 
+Code: https://github.com/tanmayiitj/DAI-Project
 
-Blog with demo: https://iamaaditya.github.io/2018/02/demo-for-pixel-deflection/
+Google Colab: Provide google colab for easier understanding
 
 Requirements:
 
@@ -19,7 +19,7 @@ Requirements:
 
 
 ```python
-» python main.py                                                                                                  02:24:51 on 2018-02-01
+» python main.py                                                                                                  02:24:51 on 2023-05-10
 Image: images/n02447366_00008562.png, True Class: 'badger'
 Before Defense :
 Predicted Class  skunk:0.59 , badger:0.15 , polecat:0.07 , wood_rabbit:0.02 , weasel:0.01
@@ -90,11 +90,3 @@ Predicted Class  badger:0.88 , skunk:0.11 , polecat:0.01 , weasel:0.00 , mink:0.
   -deflections 
 ```  
 
-### Impact of Pixel Deflection & localization of attacks
-
-<center>
-<img src="https://raw.githubusercontent.com/iamaaditya/iamaaditya.github.io/master/images/image_combine.jpg" /> 
-</center>
-
-
-For any issues please contact aprakash@brandeis.edu
